@@ -35,7 +35,7 @@ const Homepage = () => {
       <Title level={3} className='home-title'><Link to='/news'>Show more</Link></Title>
 
     </div>
-    <News simplified />
+    <div style={{maxHeight:"40rem", overflow:"hidden"}}><News simplified /></div>
     </>
   )
 }

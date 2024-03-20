@@ -53,8 +53,8 @@ function App() {
       <div className="footer">
         <Typography.Title  level={5} style={{color:"white", textAlign:"center"}}>
           Cryptoverse <br/>all rights reserved<br/>
-          <Link to='/'>Home</Link>
-          <Link to='/exchange'>Exchange</Link>
+          <Link to='/'>Home </Link>
+          <Link to='/exchange'>Exchange </Link>
           <Link to='/news'>News</Link>
         </Typography.Title>
       </div>
