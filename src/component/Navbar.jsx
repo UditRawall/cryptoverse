@@ -5,8 +5,8 @@ import { HomeOutlined, BulbOutlined, FundOutlined, MoneyCollectOutlined, MenuOut
 import icon from '../image/cryptocurrency.png';
 
 const Navbar = () => {
-    const [activeMenu, setActiveMenu] = useState(false);
-    const [screenSize, setScreenSize] = useState(null);
+    const [activeMenu, setActiveMenu] = useState(true);
+    const [screenSize, setScreenSize] = useState(window.innerWidth);
 
     useEffect(()=>{
         const handleScreenChange = () => setScreenSize(window.innerWidth);
